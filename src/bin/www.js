@@ -5,7 +5,7 @@ const cors = require("cors"),
   config = require("dotenv").config(),
   path = require("path"),
   bodyParser = require("body-parser");
-require("../config/connect-mongoose");
+// require("../config/connect-mongoose");
 require("../models");
 
 app.use(express.static(path.join(__dirname, "../../public")));
